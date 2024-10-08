@@ -1,0 +1,163 @@
+.App {
+  text-align: center;
+  color: #E8E0C8;;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(208, 49, 49);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.App-container{
+  color: rgb(8, 8, 8);
+  background-color: #E8E0C8;
+}
+
+.App{
+  color: blue;
+}
+
+.otro{
+
+  color: black !important;
+}
+
+.atras{
+
+    background-color:#E8E0C8;
+    padding: 8px;
+    margin: 20px;
+   
+    font-size: 24px;
+
+    height: 15px;
+    gap: 5px;
+
+
+    
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 0.40fr 0.60fr;
+  border: 50PX;
+}
+
+
+.css-detalles{
+  gap: 20px
+  ;
+}
+
+.css-descripcion{
+  gap: 20px;
+}
+.col-sm-1{
+  gap: 20px;
+}
+
+.contenedor{
+  display: grid;
+  grid-template-columns: 0.40fr 0.60fr;
+  color: black;
+  margin: 5px ;
+  border: 5px solid blue;
+  
+  gap: 20px ; 
+  padding: 40px ;
+
+}
+
+.card{
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 50PX;
+  width: auto;
+  background-color: #E8E0C8;
+  
+  border: 20px;
+  align-items: center;
+}
+
+.colmnas{
+
+  grid-template-columns: 0.40fr 0.60fr;
+}
+
+.rom{
+  padding: 10px;
+  margin: 1px ;
+  width: 90%;
+  flex-direction: column;
+  font-size: 24px;
+  border: 5px;
+  height:50px;
+  gap: 12px;
+  flex: auto;
+  text-align: center;
+
+}
+
+.col{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 12px;
+  height: 40px;
+  background-color: #E8E0C8;
+}
+
+.card-body{
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  height: auto;
+  background-color: #E8E0C8;
+
+
+}
+.card-title{
+  text-align: center;
+  
+}
+
+.contenedor-portada{
+
+  align-items: center;
+  grid-template-columns: 1fr;
+  background-color: #E8E0C8;
+
+  border: 10px;
+}
+
+.contenedor-grande{
+  background-color: #E8E0C8;
+}

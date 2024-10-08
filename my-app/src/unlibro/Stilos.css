@@ -1,0 +1,113 @@
+.container{
+display: grid;
+
+
+
+
+}
+.contenedor{
+
+    color: black;
+    margin: 5px ;
+    border: 5px solid blue;
+    display: flex;
+    gap: 20px ; 
+    padding: 40px ;
+    height: max-content ;
+
+
+}
+
+.baner{
+    color: black;
+    margin: 5px ;
+    border: 5px solid red ;
+    display: flex;
+    text-align: center;
+    
+
+}
+
+.rom{
+
+
+    gap: 5px;
+}
+
+/*DESCRIPCION */
+.container-descripcion{
+        width: 100%;
+        height: 100%;
+        max-width: 1000px;
+        border: 5px solid #E8E0C8 ;
+        margin: auto;
+        padding: 10px 0;
+        background-color: #E8E0C8;
+    }
+    /*.sinopsis-container{
+        width: 100%;
+    }*/
+    .objetivos-container{
+        width: 100%;
+        background-color: #E8E0C8;
+    }
+    .sinopsis-box{
+        flex: 1;  /* Hace que cada elemento ocupe el mismo espacio horizontal */
+        background-color: #D3A446;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-top: 20px; 
+    }
+    .objetivos-box{
+        flex: 1;  /* Hace que cada elemento ocupe el mismo espacio horizontal */
+        background-color: #D3A446;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-top: 20px; 
+    }
+    h2{
+
+        text-decoration-color: black;
+    }
+
+    /* RESUMEN */
+
+    .container-mt-4{
+        width: 100%;
+        height: 100%;
+        max-width: 1000px;
+        border: 5px solid #E8E0C8 ;
+        margin: auto;
+        padding: 10px 0;
+        background-color: #E8E0C8;
+    }
+    .col-md-8{
+        width: 60%;
+        height: 100%;
+        max-width: 1000px;
+        border: 5px solid #E8E0C8 ;
+        margin: auto;
+        padding: 10px 0;
+        background-color: #E8E0C8;
+    }
+/* DETALLES*/
+
+.container-detalle{
+    width: 100%;
+    height: 100%;
+    max-width: 1000px;
+    border: 8px solid #E8E0C8 ;
+    margin: auto;
+    padding: 10px 0;
+    background-color: #E8E0C8;
+}
+.detalles-box{
+    flex: 1;  /* Hace que cada elemento ocupe el mismo espacio horizontal */
+    background-color: #D3A446;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; 
+}
+
